@@ -54,3 +54,50 @@ a:hover {
     background-color: #f9f9f9;
     padding: 20px;
 }
+
+#infoForm {
+    margin-bottom: 20px;
+}
+
+#infoForm label {
+    font-weight: bold;
+}
+
+#infoForm input[type="text"],
+#infoForm input[type="number"],
+#infoForm input[type="text"],
+#infoForm input[type="submit"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#infoForm input[type="submit"] {
+    background-color: navy;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#inforForm input[type="submit"]:hover {
+    background-color: navy;
+}
+
+/* Submitted information styles */
+#submittedInfo {
+    display: none; /* Initially hide the submitted information */
+}
+
+#submittedInfo.visible {
+    display: block; /* Show the submitted information when it's available */
+}
+
+#submittedInfo h2 {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#submittedInfo p {
+    margin-bottom: 10px;
+}
